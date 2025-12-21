@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function SectionSobre() {
   return (
-    <section id="sobre" className="py-28 px-6 bg-gradient-to-t from-black/90 bg-neutral-900">
+    <section id="sobre" className="py-28 px-6 bg-gradient-to-b from-black/90 to-neutral-900">
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center gap-16">
         <Image
           src="/imagens/henrique.png.jpg"

@@ -6,7 +6,7 @@ export default function SectionPortfolio() {
   ];
 
   return (
-    <section id="portfolio" className="py-28 px-6">
+    <section id="portfolio" className="py-28 px-6 bg-gradient-to-t from-black to-neutral-900">
       <div className="max-w-7xl mx-auto text-center">
         <h2 className="text-4xl font-bold text-white">
           Meus <span className="text-blue-700">Projetos</span>

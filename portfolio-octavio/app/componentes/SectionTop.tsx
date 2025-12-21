@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function SectionTop() {
   return (
-    <section id="inicio" className="py-32 px-6 bg-gradient-to-b from-black to-neutral-900">
+    <section id="inicio" className="py-32 px-6 bg-gradient-to-t from-black to-neutral-900">
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center gap-20">
         <div>
           <h1 className="text-5xl md:text-6xl font-bold leading-tight">
