@@ -1,6 +1,6 @@
 export default function SectionForm() {
   return (
-    <section id="contato" className="py-20 px-6 text-center">
+    <section id="contato" className="py-20 px-6 text-center bg-gradient-to-t from-black bg-neutral-800">
       <h2 className="text-3xl font-bold text-white">
         FALE <span className="text-blue-700">COMIGO.</span>
       </h2>

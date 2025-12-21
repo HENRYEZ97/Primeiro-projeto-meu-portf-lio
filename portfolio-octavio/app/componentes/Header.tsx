@@ -4,8 +4,8 @@ import Link from "next/link";
 
 export default function Header() {
   return (
-    <header className="py-4 shadow-lg bg-black">
-      <div className="max-w-7xl mx-auto flex justify-between items-center px-6">
+    <header className="stick top-0 z-50 bg-black/70 backdrop-blur-md shadow-lg">
+      <div className="max-w-7xl mx-auto flex justify-between items-center px-6 oy-4">
         <Link href="/">
           <Image
             src="/imagens/novalogo.png.jpg"
@@ -22,12 +22,11 @@ export default function Header() {
         </nav>
 
         <Link href="#contato">
-          <button className="px-6 py-2 bg-blue-800 rounded-full text-gray-200 shadow-md hover:scale-110 transition">
+          <button className="px-6 py-2 bg-blue-700/90 hover:bg-blue-600 rounded-full text-white shadow-lg hover:scale-110 transition">
             Contato
           </button>
         </Link>
       </div>
-      <hr className="border-blue-700 mt-4 mx-6" />
     </header>
   );
 }
