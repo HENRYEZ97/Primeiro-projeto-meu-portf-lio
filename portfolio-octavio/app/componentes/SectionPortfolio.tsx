@@ -6,13 +6,13 @@ export default function SectionPortfolio() {
   ];
 
   return (
-    <section id="portfolio" className="py-28 px-6 bg-gradient-to-t from-black to-neutral-900">
+    <section id="portfolio" className="py-28 px-6 bg-gradient-to-t from-black to-neutral-900 backdrop-blur-xl bg-white/5 border border-white/1 p-10">
       <div className="max-w-7xl mx-auto text-center">
         <h2 className="text-4xl font-bold text-white">
           Meus <span className="text-blue-700">Projetos</span>
         </h2>
 
-        <div className="mt-16 grid grid-cols-1 md:grid-cols-3 gap-10">
+        <div className="mt-16 grid grid-cols-1 md:grid-cols-3 gap-10 cursor-pointer">
           {projetos.map((p, i) => (
             <div
               key={i}
