@@ -3,9 +3,9 @@ import Link from "next/link";
 
 export default function Header() {
   return (
-    <header className="stick top-0 z-50 bg-gradient-to-b from-black/100 bg-black-900 backdrop-blur-md shadow-lg">
+    <header className="stick top-0 z-50 bg-gradient-to-t from-black/100 bg-black-900 backdrop-blur-md shadow-lg">
       <div className="max-w-7xl mx-auto flex justify-between items-center px-6 oy-4">
-        <h2>OH. DEV</h2>
+        <h2 className="text-3xl h-30 text-center pt-10">OH. DEV</h2>
         <nav className="hidden md:flex gap-10 text-gray-300 text-lg">
           <Link href="#inicio" className="hover:scale-110 transition">Início</Link>
           <Link href="#projetos" className="hover:scale-110 transition">Projetos</Link>
