@@ -12,7 +12,7 @@ export const projetos = [
     },
 
     {
-        slug: "Hydrosense",
+        slug: "hydrosense",
         titulo: "HYDROSENSE",
         resumo: "Sistema de Monitoramento de áreas de risco",
         descricao: "O Hydrosense é um sistema de alerta de enchentes e monitoramento em tempo real de áreas de riscos na cidade de Manaus",
@@ -25,7 +25,7 @@ export const projetos = [
 
 
     {
-        slug: "Sistemas de pedidos",
+        slug: "sistema-pedidos",
         titulo: "Sistema de pedidos de lanches",
         resumo: "Sistemas para fazer pedidos de lanches com facilidade e rapidez",
         descricao: "Sistema para fazer pedido de lanches com mais facilidade com encaminhamento direto para o whatsapp do estabelecimento.",

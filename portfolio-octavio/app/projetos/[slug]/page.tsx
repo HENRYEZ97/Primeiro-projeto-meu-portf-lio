@@ -1,42 +1,64 @@
+
 import { projetos } from "@/app/data/projetos";
+import Carrosel from "@/app/componentes/Carrosel";
 import Image from "next/image";
+import { use } from "react";
 
 export default function ProjetoPage({
   params,
 }: {
   params: { slug: string };
 }) {
-  const projeto = projetos.find((p) => p.slug === params.slug);
 
-  if (!projeto) return null;
+  const slugNormalizado = decodeURIComponent(params.slug).toLowerCase();
+
+  const projeto = projetos.find(
+    (p) => p.slug.toLowerCase() === slugNormalizado
+  );
+
+  if (!projeto) {
+    return (
+      <main className="min-h-screen flex items-center justify-center">
+        <p className="text-red-500 text-xl">
+          Projeto não encontrado 🚫 <br />
+          slug recebido: <strong>{slugNormalizado}</strong>
+        </p>
+      </main>
+    );
+  }
 
   return (
-    <main className="min-h-screen px-6 py-20 max-w-5xl mx-auto">
+    <main className="min-h-screen px-6 pt-32 pb-20 max-w-5xl mx-auto">
       <h1 className="text-4xl font-bold mb-6">{projeto.titulo}</h1>
 
       <p className="text-gray-300 mb-10">{projeto.descricao}</p>
 
       <h2 className="text-2xl font-semibold mb-4">Tecnologias</h2>
-      <ul className="flex flex-wrap gap-4 mb-10">
+
+      <ul className="flex flex-wrap gap-4 mb-12">
         {projeto.tecnologias.map((tech) => (
-          <li key={tech} className="px-4 py-2 bg-neutral-800 rounded-full">
+          <li
+            key={tech}
+            className="px-4 py-2 bg-neutral-800 rounded-full"
+          >
             {tech}
           </li>
         ))}
       </ul>
 
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+      <Carrosel autoSlide autoSlideInterval={4000}>
         {projeto.imagens.map((img, i) => (
-          <Image
-            key={i}
-            src={img}
-            alt={projeto.titulo}
-            width={400}
-            height={300}
-            className="rounded-xl"
-          />
+          <div key={i} className="flex justify-center">
+            <Image
+              src={img}
+              alt={`${projeto.titulo} imagem ${i + 1}`}
+              width={900}
+              height={500}
+              className="rounded-2xl object-cover"
+            />
+          </div>
         ))}
-      </div>
+      </Carrosel>
     </main>
   );
 }
