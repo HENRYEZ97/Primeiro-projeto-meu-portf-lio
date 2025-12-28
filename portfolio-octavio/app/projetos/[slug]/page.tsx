@@ -1,16 +1,15 @@
+"use client";
 
+import { useParams } from "next/navigation";
 import { projetos } from "@/app/data/projetos";
 import Carrosel from "@/app/componentes/Carrosel";
 import Image from "next/image";
-import { use } from "react";
 
-export default function ProjetoPage({
-  params,
-}: {
-  params: { slug: string };
-}) {
+export default function ProjetoPage() {
+  const params = useParams();
+  const slug = params.slug as string;
 
-  const slugNormalizado = decodeURIComponent(params.slug).toLowerCase();
+  const slugNormalizado = decodeURIComponent(slug).toLowerCase();
 
   const projeto = projetos.find(
     (p) => p.slug.toLowerCase() === slugNormalizado
