@@ -6,7 +6,12 @@ export const projetos = [
         descricao: "O EZ Chat é um sistema de comunicação desenvolvido por mim para uma empresa de pequeno porte para facilitar a troca de mensagens em tempo real entre departamentos.",
         tecnologias: ["Next.js", "TypeScript", "Node.js", "WebSocket", "TailwindCSS"],
         imagens: [
-            "/imagens/1.png"
+            "/imagens/interface3.png",
+            "/imagens/login.png",
+            "/imagens/cadastro.png",
+            "/imagens/interface2.png",
+            "/imagens/interface4.png",
+            "/imagens/interface.png"
         ],
         github: ""
     },
@@ -18,7 +23,12 @@ export const projetos = [
         descricao: "O Hydrosense é um sistema de alerta de enchentes e monitoramento em tempo real de áreas de riscos na cidade de Manaus",
         tecnologias: ["Next.js", "Typescript", "Node.js", "Websocket", "TailwindCSS", "ESP32", "Sensor Ultrassônico"],
         imagens: [
-            "/imagens/2.png"
+            "/imagens/hydro4.png",
+            "/imagens/hydro2.png",
+            "/imagens/hydro3.png",
+            "/imagens/hydro5.png",
+            "/imagens/hydro6.png",
+            "/imagens/hydro1.png"
         ],
         github: ""
     },
