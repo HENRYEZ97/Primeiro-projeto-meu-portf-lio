@@ -33,7 +33,7 @@ export default function Carrosel({
   }, [autoSlide, autoSlideInterval, curr]);
 
   return (
-    <div className="relative overflow-hidden rounded-2xl">
+    <div className="relative overflow-hidden rounded-2xl cursor-pointer">
       
   
       <div
@@ -51,14 +51,14 @@ export default function Carrosel({
       <div className="absolute inset-0 flex items-center justify-between px-4">
         <button
           onClick={prev}
-          className="p-2 rounded-full bg-white/80 text-gray-800 hover:bg-white transition"
+          className="p-2 rounded-full bg-white/80 text-gray-800 hover:bg-white transition cursor-pointer"
         >
           <ChevronLeft size={36} />
         </button>
 
         <button
           onClick={next}
-          className="p-2 rounded-full bg-white/80 text-gray-800 hover:bg-white transition"
+          className="p-2 rounded-full bg-white/80 text-gray-800 hover:bg-white transition cursor-pointer"
         >
           <ChevronRight size={36} />
         </button>

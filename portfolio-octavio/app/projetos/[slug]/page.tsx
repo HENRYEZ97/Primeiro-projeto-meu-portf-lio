@@ -1,9 +1,9 @@
 "use client";
-
 import { useParams } from "next/navigation";
 import { projetos } from "@/app/data/projetos";
 import Carrosel from "@/app/componentes/Carrosel";
 import Image from "next/image";
+import AppBackground from "@/app/componentes/AppBackground";
 
 export default function ProjetoPage() {
   const params = useParams();
@@ -44,7 +44,7 @@ export default function ProjetoPage() {
           </li>
         ))}
       </ul>
-
+<AppBackground />
       <Carrosel autoSlide autoSlideInterval={4000}>
         {projeto.imagens.map((img, i) => (
           <div key={i} className="flex justify-center">
