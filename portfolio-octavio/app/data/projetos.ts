@@ -6,9 +6,9 @@ export const projetos = [
         descricao: "O EZ Chat é um sistema de comunicação desenvolvido por mim para uma empresa de pequeno porte para facilitar a troca de mensagens em tempo real entre departamentos.",
         tecnologias: ["Next.js", "TypeScript", "Node.js", "WebSocket", "TailwindCSS"],
         imagens: [
-            "/imagens/interface3.png",
-            "/imagens/login.png",
             "/imagens/cadastro.png",
+            "/imagens/login.png",
+            "/imagens/interface3.png",
             "/imagens/interface2.png",
             "/imagens/interface4.png",
             "/imagens/interface.png"
@@ -41,7 +41,12 @@ export const projetos = [
         descricao: "Sistema para fazer pedido de lanches com mais facilidade com encaminhamento direto para o whatsapp do estabelecimento.",
         tecnologias: ["React", "Vite", "JavaScript", "HTML", "CSS"],
         imagens: [
-            "/imagens/3.png"
+            "/imagens/lanche3.png",
+            "/imagens/lanche1.png",
+            "/imagens/lanche2.png",
+            "/imagens/lanche4.png",
+            "/imagens/lanche5.png",
+            "/imagens/lanche6.png"
         ],
         github: ""
     }
