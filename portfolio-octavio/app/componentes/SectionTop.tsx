@@ -6,7 +6,7 @@ export default function SectionTop() {
     <section
       id="inicio"
       className="relative py-32 px-6 overflow-hidden bg-gradient-to-t from-black to-neutral-900 ">
-<BackgroundGlow variant="cyan" />
+<BackgroundGlow variant="blue" />
       <div className="relative z-10 max-w-7xl mx-auto flex flex-col md:flex-row items-center gap-20">
         <div>
           <h1 className="text-5xl md:text-6xl font-bold leading-tight">
