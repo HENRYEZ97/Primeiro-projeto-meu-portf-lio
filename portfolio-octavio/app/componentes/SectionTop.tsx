@@ -13,14 +13,23 @@ export default function SectionTop() {
             Laboratório de Códigos<span className="text-blue-700">.</span>
              </h1>
             <p className="mt-6 text-lg text-gray-300 max-w-xl">
-          Transformando ideias em soluções reais através da programação,
-        explorando tecnologia moderna e boas práticas.
+              O Laboratório de Códigos nasceu da necessidade de ir além da teoria e tornar real qualquer ideia de projeto e dar o primeiro passo 100% na prática e desenvolver as primeiras linhas de código de uma aplicação. Criei esse espaço para compartilhar os projetos desenvolvidos por mim ao longo dessa grande jornada de aprendizado e evolução constante no desenvolvimento web.
+            </p>
+            <p className="mt-6 text-lg text-gray-300 max-w-xl">
+              No Laboratório de Códigos, trabalho com tecnologias modernas focadas em desenvolvimento web, performance e escalabilidade. Estou constantemente praticando e aprimorando minhas habilidades com ferramentas amplamente utilizadas no mercado e aplicando cada uma delas em projetos reais.
          </p>
           <Link href="#portfolio">
             <button className="mt-10 px-8 py-3 bg-blue-700 hover:bg-blue-600 rounded-full shadow-lg transition cursor-pointer">
              Ver projetos
              </button>
               </Link>
+              <div className="mt-10 flex flex-wrap gap-3 text-sm text-gray-300">
+                <span className="px-4 py-2 bg-white/5 rounded-full">React</span>
+                  <span className="px-4 py-2 bg-white/5 rounded-full">Next.js</span>
+                    <span className="px-4 py-2 bg-white/5 rounded-full">TypeScript</span>
+                  <span className="px-4 py-2 bg-white/5 rounded-full">Node.js</span>
+                <span className="px-4 py-2 bg-white/5 rounded-full">TailwindCSS</span>
+              </div>
              </div>
            </div>
     </section>

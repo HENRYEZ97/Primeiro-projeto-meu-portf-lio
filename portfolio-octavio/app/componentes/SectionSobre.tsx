@@ -17,12 +17,11 @@ export default function SectionSobre() {
           Olá, sou <span className="text-blue-700">Octávio Henrique</span>
           </h2>
           <p className="text-gray-300 mb-4 leading-relaxed">
-            Desenvolvedor apaixonado por tecnologia, focado em criar soluções
-            modernas, eficientes e bem estruturadas.
+            Desenvolvedor focado em transformar ideias em soluções reais por meio da programação. Tenho como base o desenvolvimento front-end moderno, trabalhando principalmente com React, Next.js, Node.js e Typescript, sempre buscando código limpo e bem estruturado.
           </p>
           <p className="text-gray-300 leading-relaxed">
             Tenho experiência com projetos pessoais, estudos constantes e
-            tecnologias atuais como React, Next.js e TypeScript.
+            tecnologias atuais como React, Next.js, Node.js e TypeScript. Sou alguém movido por curiosidade, persistência e vontade real de evoluir. Gosto de aprender fazendo, errando, ajustando e tentando de novo até entender de verdade.
           </p>
         </div>
       </div>
