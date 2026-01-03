@@ -9,12 +9,12 @@ export default function Header() {
         <h2 className="text-3xl h-30 text-center pt-10 text-white">O.H.M.S DEV</h2>
         <nav className="hidden md:flex gap-10 text-gray-300 text-lg">
           <Link href="/#inicio" className="hover:scale-110 transition">Início</Link>
-          <Link href="/#portfolio" className="hover:scale-110 transition">Projetos</Link>
-          <Link href="/#sobre" className="hover:scale-110 transition">Sobre</Link>
-        </nav>
-        <RedeSocial />
-        <Link href="#contato">
-          <button className="cursor-pointer px-6 py-2 bg-blue-700/90 hover:bg-blue-600 rounded-full text-white shadow-lg transition">
+            <Link href="/#portfolio" className="hover:scale-110 transition">Projetos</Link>
+              <Link href="/#sobre" className="hover:scale-110 transition">Sobre</Link>
+                </nav>
+                <RedeSocial />
+              <Link href="#contato">
+              <button className="cursor-pointer px-6 py-2 bg-blue-700/90 hover:bg-blue-600 rounded-full text-white shadow-lg transition">
             Contato
           </button>
         </Link>
