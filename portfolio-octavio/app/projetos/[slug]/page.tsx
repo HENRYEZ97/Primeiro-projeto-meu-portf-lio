@@ -32,19 +32,6 @@ export default function ProjetoPage() {
 
       <p className="text-gray-300 mb-10 text-xl">{projeto.descricao}</p>
 
-      <h2 className="text-2xl font-semibold mb-4">Tecnologias Utilizadas</h2>
-
-      <ul className="flex flex-wrap gap-4 mb-12">
-        {projeto.tecnologias.map((tech) => (
-          <li
-            key={tech}
-            className="px-4 py-2 bg-neutral-900 rounded-full"
-          >
-            {tech}
-          </li>
-        ))}
-      </ul>
-
         <h2 className="text-2xl font-semibold mb-4">Funcionalidades</h2>
         <ul>
           {projeto.funcionalidades?.map((tech) => (
@@ -54,6 +41,19 @@ export default function ProjetoPage() {
             </li>
           ))}
         </ul>
+
+        <h2 className="text-2xl font-semibold mb-4 mt-10">Tecnologias Utilizadas</h2>
+
+      <ul className="flex flex-wrap gap-4 mb-6">
+        {projeto.tecnologias.map((tech) => (
+          <li
+            key={tech}
+            className="px-4 py-2 bg-neutral-900 rounded-full"
+          >
+            {tech}
+          </li>
+        ))}
+      </ul>
 <AppBackground />
         <Carrosel autoSlide autoSlideInterval={4000}>
           {projeto.imagens.map((img, i) => (

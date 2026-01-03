@@ -3,8 +3,9 @@ export const projetos = [
         slug: "ez-chat",
         titulo: "EZ Chat",
         resumo: "Sistema de chat empresarial em tempo real",
-        descricao: "O EZ Chat é um sistema de comunicação desenvolvido por mim para uma empresa de pequeno porte para facilitar a troca de mensagens em tempo real entre departamentos.",
-        tecnologias: ["Next.js", "TypeScript", "Node.js", "WebSocket", "TailwindCSS"],
+        descricao: "Desenvolvi o EZ Chat para colocar em prática novas tecnologias que estou estudando atualmente. O EZ Chat é uma aplicação de chat em tempo real desenvolvida com foco em comunicação instantânea, arquitetura moderna e experiência fluída. Este projeto simula um chat funcional explorando conceitos avançados como rotas, websockets e gerenciamentos de estado, tudo o que venho aprendendo ao longo dos meses estudando desenvolvimento web. Este projeto representa um salto técnico muito importante para mim, indo além do front-end básico que era o que eu mais estudava. Com este projeto comecei a aprender node.js, express e socket.io.",
+        funcionalidades: ["Comunicação em tempo real", "Estrutura de rotas organizada", "Interface moderna e responsiva", "Atualização instantânea de mensagens", "Componentes reutilizáveis e tipados", "Login de usuário", "Cadastro de usuário", "Chat privado", "Chat por departamentos"],
+        tecnologias: ["React", "Next.js", "TypeScript", "Node.js", "WebSocket", "TailwindCSS"],
         imagens: [
             "/imagens/cadastro.png",
             "/imagens/login.png",
@@ -19,7 +20,8 @@ export const projetos = [
         slug: "hydrosense",
         titulo: "HYDROSENSE",
         resumo: "Sistema de Monitoramento de áreas de risco",
-        descricao: "O Hydrosense é um sistema de alerta de enchentes e monitoramento em tempo real de áreas de riscos na cidade de Manaus",
+        descricao: "O Hydrosense é um sistema de alerta de enchentes e monitoramento em tempo real que desenvolvi para uma feira tecnológica da faculdade, com foco em prevenção de riscos e aplicação prática da tecnologia em problemas reais da sociedade. O sistema coleta dados de nível da água por meio de um sensor ultrassônico ligado no módulo ESP32. Ele envia essas informações em tempo real para o backend e as exibe no Dashboard dessa interface do app. Ele é interativo e mostra os dados e salva no histórico do sistema, permitindo o acompanhamento contínuo e visualização clara do cenário. A idéia é que cada morador de área de risco possa fazer o monitoramento da sua área e também que autoridades competentes possam utilizar esses dados para fazer levantamento e tomar as devidas providências.",
+        funcionalidades: ["Monitoramento em tempo real do nível da água", "Dashboard com gráficos dinâmicos", "Atualização instantânea via Websocket", "Histórico de leituras", "Side bar com nomes dos bairros para monitorar", "Data e hora dos registros da leitura"],
         tecnologias: ["Next.js", "Typescript", "Node.js", "Websocket", "TailwindCSS", "ESP32", "Sensor Ultrassônico"],
         imagens: [
             "/imagens/hydro4.png",
