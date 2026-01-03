@@ -1,5 +1,6 @@
 "use client";
 import Link from "next/link";
+import RedeSocial from "./RedeSocial";
 
 export default function Header() {
   return (
@@ -11,9 +12,9 @@ export default function Header() {
           <Link href="/#portfolio" className="hover:scale-110 transition">Projetos</Link>
           <Link href="/#sobre" className="hover:scale-110 transition">Sobre</Link>
         </nav>
-
+        <RedeSocial />
         <Link href="#contato">
-          <button className="cursor-pointer px-6 py-2 bg-blue-700/90 hover:bg-blue-600 rounded-full text-white shadow-lg hover:scale-110 transition">
+          <button className="cursor-pointer px-6 py-2 bg-blue-700/90 hover:bg-blue-600 rounded-full text-white shadow-lg transition">
             Contato
           </button>
         </Link>
