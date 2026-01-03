@@ -13,7 +13,7 @@ export default function SectionForm() {
 
       <form className="max-w-lg mx-auto mt-10 flex flex-col gap-4 bg-white/5 backdrop-blur border border-white/10 text-white p-4 rounded-xl focus:border-blue-600 focus:ring-2 focus:ring-blue-600/30 transition">
         <input type="text" placeholder="Nome:" required className="bg-neutral-900 text-white p-4 rounded-lg outline-none focus:ring-2 focus:ring-blue-600/40 transition" />
-          <input type="email" placeholder="E-mail:" required className="bg-neutral-900 text-white p-4 rounded-lg outline-none focus:ring-2 focus:ring-blue-600/40 transition" />
+          <input type="email" placeholder="Seu melhor e-mail:" required className="bg-neutral-900 text-white p-4 rounded-lg outline-none focus:ring-2 focus:ring-blue-600/40 transition" />
             <input type="text" placeholder="Celular:" className="bg-neutral-900 text-white p-4 rounded-lg outline-none focus:ring-2 focus:ring-blue-600/40 transition" />
               <textarea placeholder="Sua mensagem:" required className="bg-neutral-900 text-white p-4 rounded-lg h-28 outline-none focus:ring-2 focus:ring-blue-600/40 transition" />
             <button type="submit" className="mt-6 px-8 py-3 bg-blue-600 hover:bg-blue-500 rounded-full shadow-lg shadow-blue-600/30 transition cursor-pointer">

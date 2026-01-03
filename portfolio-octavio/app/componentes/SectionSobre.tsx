@@ -16,7 +16,7 @@ export default function SectionSobre() {
           <h2 className="text-4xl font-bold mb-6">
           Olá, sou <span className="text-blue-700">Octávio Henrique</span>
           </h2>
-          <p className="text-gray-300 mb-4 leading-relaxed">
+          <p className="text-gray-300 mb-4 leading-relaxed text-lg">
             Desenvolvedor focado em transformar ideias em soluções reais por meio da programação. Tenho como base o desenvolvimento front-end moderno, trabalhando principalmente com React, Next.js, Node.js e Typescript, sempre buscando código limpo e bem estruturado.
           </p>
           <p className="text-gray-300 leading-relaxed">

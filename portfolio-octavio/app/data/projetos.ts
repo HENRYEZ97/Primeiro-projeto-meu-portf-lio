@@ -13,7 +13,6 @@ export const projetos = [
             "/imagens/interface4.png",
             "/imagens/interface.png"
         ],
-        github: ""
     },
 
     {
@@ -30,7 +29,6 @@ export const projetos = [
             "/imagens/hydro6.png",
             "/imagens/hydro1.png"
         ],
-        github: ""
     },
 
 
@@ -38,8 +36,9 @@ export const projetos = [
         slug: "sistema-pedidos",
         titulo: "Sistema de pedidos de lanches",
         resumo: "Sistemas para fazer pedidos de lanches com facilidade e rapidez",
-        descricao: "Sistema para fazer pedido de lanches com mais facilidade com encaminhamento direto para o whatsapp do estabelecimento.",
-        tecnologias: ["React", "Vite", "JavaScript", "HTML", "CSS"],
+        descricao: "Desenvolvi esse Sistema de Pedidos de Lanches com o objetivo de simular uma aplicação real de pedidos online, focada em usabilidade, organização visual e fluxo simples para o usuário final. A aplicação está responsiva e permite visualizar produtos, navegar por categorias e realizar os pedidos de forma intuitiva. Esse projeto marcou uma etapa importante da minha evolução no front-end, consolidando fundamentos essenciais de React, React-Router, Vite e organização de componentes.",
+        funcionalidades: ["Listagem de produtos por categoria", "Interface responsiva", "Componentização reutilizável", "Fluxo simples e direto para pedidos", "Layout focado em experiência do usuário"],
+        tecnologias: ["React", "React-Router", "Vite", "JavaScript", "HTML5", "CSS"],
         imagens: [
             "/imagens/lanche3.png",
             "/imagens/lanche1.png",
@@ -48,6 +47,5 @@ export const projetos = [
             "/imagens/lanche5.png",
             "/imagens/lanche6.png"
         ],
-        github: ""
     }
 ]
