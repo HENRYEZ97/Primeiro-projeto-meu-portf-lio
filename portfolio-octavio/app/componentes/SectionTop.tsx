@@ -12,10 +12,10 @@ export default function SectionTop() {
           <h1 className="text-5xl md:text-6xl font-bold leading-tight">
             Laboratório de Códigos<span className="text-blue-700">.</span>
              </h1>
-            <p className="mt-6 text-lg text-gray-300 max-w-xl">
+            <p className="mt-6 text-xl text-gray-300 max-w-xl">
               O Laboratório de Códigos nasceu da necessidade de ir além da teoria e tornar real qualquer ideia de projeto e dar o primeiro passo 100% na prática e desenvolver as primeiras linhas de código de uma aplicação. Criei esse espaço para compartilhar os projetos desenvolvidos por mim ao longo dessa grande jornada de aprendizado e evolução constante no desenvolvimento web.
             </p>
-            <p className="mt-6 text-lg text-gray-300 max-w-xl">
+            <p className="mt-6 text-xl text-gray-300 max-w-xl">
               No Laboratório de Códigos, trabalho com tecnologias modernas focadas em desenvolvimento web, performance e escalabilidade. Estou constantemente praticando e aprimorando minhas habilidades com ferramentas amplamente utilizadas no mercado e aplicando cada uma delas em projetos reais.
          </p>
           <Link href="#portfolio">

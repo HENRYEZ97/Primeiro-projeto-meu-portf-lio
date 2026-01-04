@@ -2,6 +2,7 @@
 
 import { GitHub } from "react-feather";
 import { Linkedin } from "react-feather";
+import { FaWhatsapp } from "react-icons/fa";
 
 export default function RedeSocial () {
     return (
@@ -12,7 +13,7 @@ export default function RedeSocial () {
             rel="noopener noreferrer"
             className="text-white/70 hover:text-white transition transform hover:scale-110 hover:drop-shadow-[0_0_12px_rgba(59,130,246,0.6)]"
             >
-                <GitHub size={22} />Github
+                <GitHub size={28} />
             </a>
 
             <a
@@ -21,7 +22,15 @@ export default function RedeSocial () {
             rel="noopener noreferrer"
             className="text-white/70 hover:text-white transition transform hover:scale-110 hover:drop-shadow-[0_0_12px_rgba(14,165,233,0.6)]"
             >
-                <Linkedin size={22} />Linkedin             
+                <Linkedin size={28} />        
+            </a>
+
+            <a href="https://www.whatsapp.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-white/70 hover:text-white transition transform hover:scale-110 hover:drop-shadow-[0_0_12px_rgba(14,165,233,0.6)]"
+            >
+                <FaWhatsapp size={28} />
             </a>    
         </div>
     )
