@@ -3,7 +3,7 @@ import Header from "./componentes/Header";
 import Footer from "./componentes/Footer";
 
 export const metadata = {
-  title: "Portfólio Octávio",
+  title: "Em construção",
   description: "Laboratório de códigos do Octávio Henrique",
 };
 

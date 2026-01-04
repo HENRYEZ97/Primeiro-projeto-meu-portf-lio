@@ -32,7 +32,7 @@ export default function SectionTop() {
               </div>
              </div>
              <div className="flex-1 hidden md:flex justify-center items-center">
-              <img src="/imagens/dev.png"
+              <img src="/imagens/dev1.png"
               alt="símbolo do código"
                className="w-[700px] md:w-[520px] lg:w-[700px] xl:w-[820px] cyber-logo transition-transform duration-700 hover:scale-110 cursor-pointer">
                </img>
