@@ -1,5 +1,10 @@
 import Link from "next/link";
 import BackgroundGlow from "./BackgroundGlow";
+import { FaReact } from "react-icons/fa";
+import { FaNodeJs } from "react-icons/fa";
+import { SiTypescript } from "react-icons/si";
+import { SiTailwindcss } from "react-icons/si";
+import { SiNextdotjs } from "react-icons/si";
 
 export default function SectionTop() {
   return (
@@ -23,12 +28,12 @@ export default function SectionTop() {
              Ver projetos
              </button>
               </Link>
-              <div className="mt-10 flex flex-wrap gap-3 text-sm text-gray-300">
-                <span className="px-4 py-2 bg-white/5 rounded-full">React</span>
-                  <span className="px-4 py-2 bg-white/5 rounded-full">Next.js</span>
-                    <span className="px-4 py-2 bg-white/5 rounded-full">TypeScript</span>
-                  <span className="px-4 py-2 bg-white/5 rounded-full">Node.js</span>
-                <span className="px-4 py-2 bg-white/5 rounded-full">TailwindCSS</span>
+              <div className="mt-10 flex flex-wrap gap-3 text-sm text-gray-300 cursor-pointer">
+                <span className="px-3 py-3 bg-white/3 rounded-full hover:text-white transition transform hover:scale-110 hover:drop-shadow-[0_0_12px_rgba(59,130,246,0.6)]"><FaReact size={35}/></span>
+                  <span className="px-3 py-3 bg-white/5 rounded-full hover:text-white transition transform hover:scale-110 hover:drop-shadow-[0_0_12px_rgba(59,130,246,0.6)]"><SiNextdotjs size={35}/></span>
+                    <span className="px-3 py-3 bg-white/5 rounded-full hover:text-white transition transform hover:scale-110 hover:drop-shadow-[0_0_12px_rgba(59,130,246,0.6)]"><SiTypescript size={35}/></span>
+                  <span className="px-3 py-3 bg-white/5 rounded-full hover:text-white transition transform hover:scale-110 hover:drop-shadow-[0_0_12px_rgba(59,130,246,0.6)]"><FaNodeJs size={35}/></span>
+                <span className="px-3 py-3 bg-white/5 rounded-full hover:text-white transition transform hover:scale-110 hover:drop-shadow-[0_0_12px_rgba(59,130,246,0.6)]"><SiTailwindcss size={35}/></span>
               </div>
              </div>
              <div className="flex-1 hidden md:flex justify-center items-center">
