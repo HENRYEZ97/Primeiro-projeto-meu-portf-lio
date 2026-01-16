@@ -8,9 +8,9 @@ export default function Header() {
       <div className="max-w-7xl mx-auto flex justify-between items-center px-6 oy-4">
         <h2 className="text-3xl h-30 text-center pt-10 text-white">O.H.M.S DEV</h2>
         <nav className="hidden md:flex gap-10 text-gray-300 text-lg">
-          <Link href="/#inicio" className="hover:scale-110 transition">Início</Link>
-            <Link href="/#portfolio" className="hover:scale-110 transition">Projetos</Link>
-              <Link href="/#sobre" className="hover:scale-110 transition">Sobre</Link>
+          <Link href="/#inicio" className="hover:text-white transition transform hover:scale-110 hover:drop-shadow-[0_0_12px_rgba(59,130,246,0.6)]">Início</Link>
+            <Link href="/#portfolio" className="hover:text-white transition transform hover:scale-110 hover:drop-shadow-[0_0_12px_rgba(59,130,246,0.6)]">Projetos</Link>
+              <Link href="/#sobre" className="hover:text-white transition transform hover:scale-110 hover:drop-shadow-[0_0_12px_rgba(59,130,246,0.6)]">Sobre</Link>
                 </nav>
                 <RedeSocial />
               <Link href="#contato">
