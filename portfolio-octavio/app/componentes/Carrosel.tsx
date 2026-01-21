@@ -35,7 +35,6 @@ export default function Carrosel({
   return (
     <div className="relative overflow-hidden rounded-2xl cursor-pointer">
       
-  
       <div
         className="flex transition-transform ease-out duration-500"
         style={{ transform: `translateX(-${curr * 100}%)` }}
@@ -47,7 +46,6 @@ export default function Carrosel({
         ))}
       </div>
 
-      {/* Botões */}
       <div className="absolute inset-0 flex items-center justify-between px-4">
         <button
           onClick={prev}
@@ -64,7 +62,6 @@ export default function Carrosel({
         </button>
       </div>
 
-      {/* Dots */}
       <div className="absolute bottom-4 left-0 right-0 flex justify-center gap-2">
         {slides.map((_, i) => (
           <button
