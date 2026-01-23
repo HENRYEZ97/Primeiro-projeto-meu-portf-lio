@@ -1,4 +1,5 @@
 import { NextResponse } from "next/server";
+import { db } from "@/lib/db";
 
 export async function POST(request: Request) {
     try {
@@ -12,20 +13,21 @@ export async function POST(request: Request) {
                 { status: 400 }
             );
         }
-        console.log("Mensagem recebida!", {
-            nome,
-            email,
-            celular,
-            mensagem,
-        });
+       
+        await db.execute(
+            "INSERT INTO mensagens(nome, email, celular, mensagem) VALUES (?, ?, ?, ?)",
+            [nome, email, celular, mensagem]
+        );
 
         return NextResponse.json(
             { success: true, message: "Mensagem recebida com sucesso!" },
-            { status: 200 }        
+            { status: 201 }        
         );
     } catch (error) {
+        console.error(error);
+        
         return NextResponse.json(
-            { error: "Erro ao processar requisição" },
+            { error: "Erro ao processar requisição!"},
             { status: 500 }
         );
     }
