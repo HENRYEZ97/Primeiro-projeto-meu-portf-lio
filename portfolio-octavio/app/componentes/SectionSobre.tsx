@@ -1,4 +1,3 @@
-import Image from "next/image";
 import BackgroundGlow from "./BackgroundGlow";
 
 export default function SectionSobre() {
@@ -7,13 +6,7 @@ export default function SectionSobre() {
            <BackgroundGlow variant="blue" />
           <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center gap-16">
             <div className="relative rounded-2xl overflow-hidden">
-            <Image
-              src="/imagens/henrique.png.jpg"
-              alt="Octávio Henrique"
-              width={280}
-              height={280}
-              className="rounded-2xl shadow-xl relative z-10 object-cover"/>
-              <div className="scanner-strong z-20" />
+            
             </div>  
 
             <div className="text-white max-w-2xl">
