@@ -5,11 +5,18 @@ export default function SectionSobre() {
     <section id="sobre" className="py-28 px-6 bg-gradient-to-b from-black/90 to-neutral-900 backdrop-blur-xl bg-white/5 border border-white/1 p-10">
            <BackgroundGlow variant="blue" />
           <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center gap-16">
-            <div className="relative rounded-2xl overflow-hidden">
+            <div className="relative rounded-3xl overflow-hidden">
+
+              <img src="/imagens/ezdev.jpeg"
+                   width={350}
+                   height={350}
+                   alt="dev">
+              </img>
             
             </div>  
 
             <div className="text-white max-w-2xl">
+              
                 <h2 className="text-4xl font-bold mb-6">
                     Olá, sou <span className="text-blue-700">Octávio Henrique</span>
                 </h2>
