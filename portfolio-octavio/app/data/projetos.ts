@@ -49,5 +49,42 @@ export const projetos = [
             "/imagens/lanche5.png",
             "/imagens/lanche6.png"
         ],
+    },
+
+    {
+        slug: "Sis-Clinic - Sistema de gestão clínica",
+        titulo: "Sis-Clinic",
+        resumo: "Sistema de gestão clínica para profissionais que atuam diretamente no fluxo operacional.",
+        descricao: "O sistema de gestão clínica foi desenvolvido para atender os profissionais que estão em todo o fluxo operacional de clínicas médicas, contemplando dois perfis principais de usuários: recepcionistas e médicos. Cada perfil possui responsabilidades distintas e níveis de acesso adequados às suas funções, garantindo segurança, organização e eficiência no processo de atendimento.",
+        funcionalidades: ["Controle de perfil (RBAC)", "Gestão de Médicos", "Cadastro de pacientes", "Validação de dados", "Encaminhamento para atendimento", "Visualização de fila individual", "Status do atendimento", "Início de consulta", "Registro clínico", "Finalização de atendimento"],
+        tecnologias: ["Next.js", "TailwindCSS", "React", "Javascript", "Typescript", "HTML5"],
+        imagens: [
+            "/imagens/login1.png",
+            "/imagens/paginainicial.png",
+            "/imagens/recepcao.png",
+            "/imagens/fila.png",
+            "/imagens/fila1.png",
+            "/imagens/cadastros.png",
+            "/imagens/consulta.png"
+        ],
+    },
+
+    {
+        slug: "Ez tecnologia - Sistema de anúncio para vendas",
+        titulo: "Ez tecnologia",
+        resumo: "O ez tecnologia é um sistema de anúncios de vendas tech que facilita na compra e venda de produtos tecnológicos.",
+        descricao: "O ez tecnologia foi desenvolvido para o anúncio e compras de materiais techs. O catálogo de produtos vai aumentando conforme anúncios forem postados e para facilitar a busca por produtos, no início da tela possui uma busca e filtro por categorias.",
+        funcionalidades: ["Controle por perfil (RBAC)", "Cadastro de usuário", "Login de usuário", "Cadastro de produtos", "Upload de imagens", "Link para o contato de whatsapp do vendedor"],
+        tecnologias: ["React", "HTML5", "CSS", "Typescript", "Javascript", "Firebase", "React-icons"],
+        imagens: [
+            "/imagens/ez1.png",
+            "/imagens/ez2.png",
+            "/imagens/ez3.png",
+            "/imagens/ez4.png",
+            "/imagens/ez5.png",
+            "/imagens/ez6.png",
+            "/imagens/ez7.png"
+        ],
     }
+
 ]
